@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8" />
+    <!-- Page Title -->
+    <title>Hands On Lab</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!-- Mobile Meta Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/fav_touch_icons/favicon.ico" />
+    <link rel="apple-touch-icon" href="/assets/images/fav_touch_icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/fav_touch_icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/fav_touch_icons/apple-touch-icon-114x114.png" />
+    <!-- Fonf Awesome -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/assets/css/bootstrap.min.css" />
+    <!-- Template CSS -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/style.css" />
+    <style>
+
+        body {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+            text-transform: none;
+        }
+
+        .btn {
+            text-transform: none;
+        }
+
+        .take-pic {
+            margin-top: 3%;
+            width: 100%;
+            height: 345px;
+        }
+
+        audio, canvas, progress, video {
+            display: inline-block;
+            vertical-align: baseline;
+        }
+
+        #check_id {
+            margin-left: 30%;
+        }
+
+        .signin-btn {
+            background: #036;
+            color: #dfdada;
+            border-radius: 20px;
+            width: 135px;
+            padding: 5px;
+            cursor: pointer;
+            margin-bottom: 3%;
+        }
+
+        input[type=text], input[type=password], input[type=email] {
+            height: 30px !important;
+        }
+
+        .form-control {
+            height: 30px !important;
+        }
+
+        .form-action.form-default .row > [class*='col-'] {
+            margin-bottom: 10px;
+        }
+
+        #add-member-details {
+            margin-top: 20px;
+        }
+
+        
+
+        .rounded-circle {
+            width:150px;
+            height:150px;
+            border-radius: 50% !important;
+        }
+    </style>
+</head>
+<body class="home-page">
+    <!-- BEGIN HEADER -->
+    <header id="header" class="header-default">
+        <div class="container navbar-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-3 header-left">
+                        <a href="index" class="logo"><img src="/assets/images/logo.png" alt=""></a>
+                    </div>
+                    <div class="col-md-9 header-right">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+    <br>
+    <!-- BEGIN SITE MAP -->
+    <div class="site-map">
+        <div class="container">
+            <a href="user_index">User</a>
+            <a href="#">Register</a>
+        </div>
+    </div>
+    <!-- END SITE MAP -->
+    <!-- BEGIN MAIN CONTENT -->
+    <div class="row">
+        <div class="col-md-1 col-sm-1"></div>
+        <div class="col-md-5 col-sm-12">
+            <center>
+                <video id="video" class="response take-pic" autoplay=""></video>
+            </center>
+
+            <center>
+                <h4 style="color: red;">Please Smile and Take a Snap</h4>
+            </center>
+            <center class="checkbox">
+                <label style="color: red;"><input type="checkbox" id="check_id" value="" checked="checked">Detect Fake or Real</label>
+            </center>
+
+            <center>
+                <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="snap_btn" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Take Snapshot</button>
+            </center>
+        </div>
+        <div class="col-md-1 col-sm-1"></div>
+
+        <div class="col-md-3 col-sm-12">
+            <br>
+            <form action="#" class="form-action form-default ct-formLogin">
+
+                <center><canvas class="rounded-circle" id="myCanvas" width="150" height="150" style="border: 1px solid #ccc;display:none;"></canvas> </center>
+                <br>
+                <center>
+                    <img src="data:image/png;base64,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" id="result_img"  style="border: 1px solid #ccc;border-radius:50%;width:150px;height:150px;">
+                    </center>
+                    <br>
+                    <div class="form-group">
+                        <div class="row box-action-one">
+                            <div class="col-sm-12 cs-padding">
+                                <input type="text" name="name" class="form-control" @*onkeypress="return onlyAlphabets(event,this)"*@ id="name" placeholder="Name">
+                            </div>
+                            <div class="col-sm-12 cs-padding">
+                                <input type="text" name="password" class="cs-select form-control show-tick" maxlength="10" @*onkeypress="return isNumber(event)"*@ id="phonenumber" placeholder="Mobile Number">
+                            </div>
+                            <div class="col-sm-12 cs-padding">
+                                <select class="form-control" id="gender" style="margin-bottom: 0%;">
+                                    <option value="">Gender</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-12 cs-padding">
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email ID">
+                            </div>
+
+                            <div class="col-sm-12 cs-padding">
+                                <button style="margin-top: -2px;" type="button" class="btn signin-btn" id="form_submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> Loading..">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+            </form>
+
+        </div>
+
+    </div>
+
+ <div class="modal fade" id="alert_popup" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">        
+          <div class="modal-body">         
+              <center><h4 id="errmsg"></h4>
+              <br><button id="pagerefresh" class="btn btn-primary">Okay</button></center>        
+          </div>     
+       </div>    
+     </div>  
+ </div>
+    <!-- END MAIN CONTENT -->
+    <!--BEGIN FOOTER -->
+    <footer id="footer" class="footer-background" style="margin-top:99px;">
+
+        <!--BEGIN COPYRIGHT -->
+        <div id="copyright">
+            <!-- 	<a href="#" class="scrollTopButton">
+               <span class="button-square">
+                   <i class="fa fa-angle-double-up"></i>
+               </span>
+            </a> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span class="allright">2019 <strong class="t-color">Jumpstartninja </strong> All rights reserved.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END COPYRIGHT -->
+    </footer>
+    <!-- END FOOTER -->
+    <!-- END WRAPPER -->
+    <!-- Libs -->
+    <script type="text/javascript" src="~/assets/js/common/jquery-1.x-git.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/common.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap-progressbar.js"></script>
+    <script type="text/javascript" src="~/assets/js/owl.carousel.min.js"></script>
+    <!-- Datepiker Script -->
+    <script type="text/javascript" src="~/assets/js/datepiker/js/moment.js"></script>
+    <script type="text/javascript" src="~/assets/js/datepiker/js/bootstrap-datepicker.js"></script>
+    <!-- Template Scripts -->
+    <script type="text/javascript" src="~/assets/js/scripts.js"></script>
+    <script type="text/javascript" src="~/assets/style-switcher/js/jQuery.style.switcher.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function ()
+        {
+            document.getElementById("form_submit").disabled = true;
+
+
+            navigator.getUserMedia = (navigator.getUserMedia ||
+                navigator.webkitGetUserMedia ||
+                navigator.mozGetUserMedia ||
+                navigator.msGetUserMedia);
+
+            var video;
+            var webcamStream; 1
+
+            if (navigator.getUserMedia) {
+                navigator.getUserMedia(
+
+                    {
+                        video: true,
+                        audio: false
+                    },
+                    function (localMediaStream) {
+                        video = document.querySelector('video');
+
+                        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+                            navigator.mediaDevices.getUserMedia({ video: true }).then(function (stream) {
+
+                                video.srcObject = stream;
+                                video.play();
+                            });
+
+                        }
+                    },
+                    function (err) {
+                        console.log("The following error occured: " + err);
+                    }
+                );
+            }
+            else {
+                console.log("getUserMedia not supported");
+            }
+
+            var canvas, ctx;
+            function init() {
+                canvas = document.getElementById("myCanvas");
+                ctx = canvas.getContext('2d');
+                var imageObj = new Image();
+
+                imageObj.onload = function () {
+                    ctx.drawImage(imageObj, 0, 0, 150, 150);
+                };
+                imageObj.src = 'data:image/png;base64,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';
+
+
+            }
+
+
+            $("#pagerefresh").click(function () {
+                window.location.href = "register";
+            });
+
+
+            var videoId = 'video';
+            var scaleFactor = 1;
+            var snapshots = [];
+
+            function capture(video, scaleFactor) {
+                if (scaleFactor == null) {
+                    scaleFactor = 1;
+                }
+                var w = video.videoWidth * scaleFactor;
+                var h = video.videoHeight * scaleFactor;
+                var canvas = document.createElement('canvas');
+                canvas.width = w;
+                canvas.height = h;
+                var ctx = canvas.getContext('2d');
+
+                ctx.drawImage(video, 0, 0, w, h);
+                return canvas;
+            }
+
+
+            $("#snap_btn").click(function (e) {
+                if ($('#check_id').is(":checked")) {
+                    var check = "Yes";
+                }
+                else {
+                    var check = "No";
+                }
+
+                e.preventDefault();
+                $('#snap_btn').button('loading');
+                var canvas = capture(video, scaleFactor);
+                
+                var image = canvas.toDataURL('image/png');
+                var resultimg = image;
+                var ImageSave = image.replace("data:image/png;base64,", "");
+                var image = JSON.stringify({ data: ImageSave, check: check });
+
+                console.log(check);
+                
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json",
+                    datatype: "json",
+                    data: image,
+                    url: "/Home/RegisterAPI/",
+                    success: function (data) {
+                        console.log(data);
+                        if (data.Result == "Success")
+                        {
+                            $("#result_img").attr('src', resultimg);
+                            document.getElementById("form_submit").disabled = false;
+                        }
+                        else
+                        {
+                     
+                            console.log(data.Result);
+                            $("#errmsg").html(data.Result);
+                            $('#alert_popup').modal('show');
+                        }
+                        $('#snap_btn').button('reset');
+                    }
+                });
+
+
+
+                snapshots.unshift(canvas);
+            });
+        });
+
+
+        $("#form_submit").click(function (e)
+        {
+            e.preventDefault();
+            $('#form_submit').button('loading');
+            var Name = $("#name").val();
+            var gender = $("#gender").val();
+            var phone = $("#phonenumber").val();
+            var email = $("#email").val();
+            var image1 = $("#result_img").attr('src');
+            
+            if (Name != "" && image1 != "")
+            {
+                var img_64_array = image1.split(',');
+                var img_extension = img_64_array[0];
+                var ImageBase64 = image1.replace(img_extension + ",", "");
+                var endres = JSON.stringify({ data: ImageBase64, name: Name, gender: gender, phone: phone, email: email });
+
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json",
+                    datatype: "json",
+                    data: endres,
+                    url: "/Home/FaceRegisterAPI/",
+                    success: function (data)
+                    {
+                        console.log(data.Result);
+                        $("#errmsg").html(data.Result);
+                        $('#alert_popup').modal('show');
+                        $('#form_submit').button('reset');
+
+                    }
+                });
+            }
+            else {
+                $("#errmsg").html("Please enter your name");
+                $('#alert_popup').modal('show');
+                $('#form_submit').button('reset');
+            }
+
+        });
+
+    </script>
+</body>
+</html>

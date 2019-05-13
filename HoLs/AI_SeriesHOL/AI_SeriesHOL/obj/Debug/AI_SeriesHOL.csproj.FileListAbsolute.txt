@@ -1,0 +1,334 @@
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.dll.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.pdb
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.exe
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.exe.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.rsp
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.exe
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.exe.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.rsp
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.AppContext.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Collections.Immutable.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Console.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Compression.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.FileSystem.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Pipes.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Reflection.Metadata.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.AccessControl.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Claims.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Principal.Windows.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.ValueTuple.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XPath.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.exe
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.exe.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.rsp
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\VBCSCompiler.exe
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\VBCSCompiler.exe.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Antlr3.Runtime.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Web.Infrastructure.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Newtonsoft.Json.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\RestSharp.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Diagnostics.DiagnosticSource.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Helpers.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Mvc.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Optimization.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Razor.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Deployment.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Razor.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\WebGrease.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\RestSharp.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Helpers.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Mvc.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Optimization.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Razor.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Deployment.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Razor.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Newtonsoft.Json.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Antlr3.Runtime.pdb
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\System.Diagnostics.DiagnosticSource.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csprojAssemblyReference.cache
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csproj.CoreCompileInputs.cache
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csproj.CopyComplete
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.pdb
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.dll.config
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.pdb
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.exe
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.exe.config
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.rsp
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.exe
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.exe.config
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.rsp
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.AppContext.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Collections.Immutable.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Console.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Compression.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.FileSystem.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Pipes.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Reflection.Metadata.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.AccessControl.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Claims.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.ValueTuple.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XPath.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.exe
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.exe.config
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.rsp
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\VBCSCompiler.exe
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\VBCSCompiler.exe.config
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Antlr3.Runtime.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Web.Infrastructure.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Newtonsoft.Json.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\RestSharp.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Diagnostics.DiagnosticSource.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Helpers.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Mvc.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Optimization.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Razor.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Deployment.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Razor.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\WebGrease.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\RestSharp.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Helpers.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Mvc.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Optimization.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Razor.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Deployment.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Razor.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Newtonsoft.Json.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Antlr3.Runtime.pdb
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\System.Diagnostics.DiagnosticSource.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csprojAssemblyReference.cache
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csproj.CoreCompileInputs.cache
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csproj.CopyComplete
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.dll
+E:\Demos\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.pdb
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.dll.config
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.pdb
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.exe
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.exe.config
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.rsp
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.exe
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.exe.config
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.rsp
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.Managed.Core.targets
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.AppContext.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Collections.Immutable.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Console.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Compression.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.FileSystem.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Pipes.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Reflection.Metadata.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.AccessControl.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Claims.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Principal.Windows.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.ValueTuple.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XmlDocument.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XPath.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.exe
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.exe.config
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.rsp
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\VBCSCompiler.exe
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\VBCSCompiler.exe.config
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Antlr3.Runtime.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Web.Infrastructure.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Newtonsoft.Json.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\RestSharp.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Diagnostics.DiagnosticSource.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Helpers.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Mvc.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Optimization.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Razor.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Deployment.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Razor.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\WebGrease.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\RestSharp.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Helpers.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Mvc.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Optimization.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Razor.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Deployment.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Razor.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Newtonsoft.Json.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Antlr3.Runtime.pdb
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Diagnostics.DiagnosticSource.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csprojAssemblyReference.cache
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csproj.CoreCompileInputs.cache
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csproj.CopyComplete
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.dll
+G:\ASP.Net\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.pdb
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.dll.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\AI_SeriesHOL.pdb
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.exe
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.exe.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csc.rsp
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.exe
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.exe.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\csi.rsp
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.Managed.Core.targets
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.AppContext.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Collections.Immutable.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Console.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Compression.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.FileSystem.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.IO.Pipes.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Reflection.Metadata.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.AccessControl.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Claims.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Security.Principal.Windows.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.ValueTuple.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XmlDocument.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XPath.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.exe
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.exe.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\vbc.rsp
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\VBCSCompiler.exe
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\roslyn\VBCSCompiler.exe.config
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Antlr3.Runtime.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Rest.ClientRuntime.Azure.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Rest.ClientRuntime.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Web.Infrastructure.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Newtonsoft.Json.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\RestSharp.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Diagnostics.DiagnosticSource.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Helpers.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Mvc.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Optimization.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Razor.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Deployment.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Razor.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\WebGrease.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Rest.ClientRuntime.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.Rest.ClientRuntime.Azure.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\RestSharp.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Helpers.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Mvc.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Optimization.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.Razor.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Deployment.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Web.WebPages.Razor.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Newtonsoft.Json.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Antlr3.Runtime.pdb
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\System.Diagnostics.DiagnosticSource.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csprojAssemblyReference.cache
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csproj.CoreCompileInputs.cache
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.csproj.CopyComplete
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.dll
+G:\Microsoft Workshops\AI_SeriesHOL\AI_SeriesHOL\AI_SeriesHOL\obj\Debug\AI_SeriesHOL.pdb
