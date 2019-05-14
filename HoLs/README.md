@@ -96,20 +96,13 @@ namespace HeroSolutions
 </pre>
 </blockquote>
    <li>Install the 'RestSharp' Nuget Package</li>
-   &nbsp;&nbsp;
      <li>Click on Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution</li>
-     &nbsp;
      <li>In the Browse tab type 'RestSharp'</li>
-     &nbsp;
        <img src="http://139.59.61.161/MSWorkshop2019/1.PNG" alt="image" style="max-width:100%;">
     <li>Update the API Key and Endpoint in Web.Config</li>
-    &nbsp;
       <li>Grab the Key and Endpoint from 'Hero Solutions' site</li>
-      &nbsp;
       <li>Navigate to Web.Config</li>
-      &nbsp;
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
-      &nbsp;
         <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;">
 
 </strong>
