@@ -159,8 +159,6 @@ namespace HeroSolutions
                                     }
                                 }
                             }
-
-
 &nbsp;
                             //Check with API Call Result
                             if (!isface)
@@ -172,22 +170,19 @@ namespace HeroSolutions
                             if (!ismultipleface)
                             {
                                 return "Multiple Faces are detected";
-                            }
-                            
+                            }                          
 &nbsp;
                             //Check with API Call Result
                             if (!issunglasses)
                             {
                                 return "Please remove the sunglasses";
-                            }
-                            
+                            }                          
 &nbsp;
                             //Check with API Call Result
                             if (!isemotions)
                             {
                                 return "Your expression must be Neutral";
-                            }
-                            
+                            }                           
 &nbsp;
                             //Success Enum
                             return "0";
