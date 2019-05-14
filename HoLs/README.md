@@ -101,7 +101,103 @@ namespace HeroSolutions
                         return response.Content;
                     }
                     &nbsp;
-                    //Paste the Validation function code here...
+                    public string Validate(string url, byte[] imagebytes)
+                    {
+                        try
+                        {
+                            //API CAll
+                            var apiresponse = FaceAPICall(imagebytes);
+&nbsp;
+                            bool isface = true, ismultipleface = true, issunglasses = true, isemotions = true;
+&nbsp;
+                            if (apiresponse.Length == 2)
+                            {
+                                isface = false;
+                            }
+&nbsp;
+                            if (apiresponse.Length > 2)
+                            {
+                                JArray items = JArray.Parse(apiresponse);
+&nbsp;
+                                for (int i = 0; i < items.Count; i++)
+                                {
+                                    var item = (JObject)items[i];
+                                    var itemres = item["faceAttributes"]["glasses"];
+&nbsp;
+                                    if (itemres.ToString() == "Sunglasses")
+                                    {
+                                        issunglasses = false;
+                                    }
+                                }
+                            }
+&nbsp;
+                            if (apiresponse.Length > 2)
+                            {
+                                JArray items = JArray.Parse(apiresponse);
+                                int length = items.Count;
+&nbsp;
+                                if (length > 1)
+                                {
+                                    ismultipleface = false;
+                                }
+                            }
+&nbsp;
+                            if (apiresponse.Length > 2)
+                            {
+                                JArray items = JArray.Parse(apiresponse);
+&nbsp;
+                                for (int i = 0; i < items.Count; i++)
+                                {
+                                    var item = (JObject)items[i];
+                                    var anger = item["faceAttributes"]["emotion"]["anger"];
+                                    var sadness = item["faceAttributes"]["emotion"]["sadness"];
+                                    var surprise = item["faceAttributes"]["emotion"]["surprise"];
+&nbsp;
+                                    if ((double)anger > 0.5 && (double)sadness > 0.5 && (double)surprise > 0.5)
+                                    {
+                                        isemotions = false;
+                                    }
+                                }
+                            }
+
+
+&nbsp;
+                            //Check with API Call Result
+                            if (!isface)
+                            {
+                                return "Face Not Found";
+                            }
+&nbsp;
+                            //Check with API Call Result
+                            if (!ismultipleface)
+                            {
+                                return "Multiple Faces are detected";
+                            }
+                            
+&nbsp;
+                            //Check with API Call Result
+                            if (!issunglasses)
+                            {
+                                return "Please remove the sunglasses";
+                            }
+                            
+&nbsp;
+                            //Check with API Call Result
+                            if (!isemotions)
+                            {
+                                return "Your expression must be Neutral";
+                            }
+                            
+&nbsp;
+                            //Success Enum
+                            return "0";
+                        }
+                        catch (Exception e)
+                        {
+                            error = e.Message;
+                            return "";
+                        }
+                    }
                 }
             }
         }
