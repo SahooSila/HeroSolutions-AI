@@ -89,10 +89,18 @@ namespace HeroSolutions
         }
     }
 }
-</code>
+          </code>
 </pre>
-    </blockquote>
-  </strong>
+</blockquote>
+   <li>Install the 'RestSharp' Nuget Package</li>
+   &nbsp;&nbsp;
+     <li>Click on Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution</li>
+     &nbsp;&nbsp;
+     <li>In the Browse tab type 'RestSharp'</li>
+     &nbsp;&nbsp;
+       <img src="http://139.59.61.161/MSWorkshop2019/1.PNG" alt="image" style="max-width:100%;">
+
+</strong>
 
 </ol>
 
