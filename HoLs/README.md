@@ -88,7 +88,7 @@ namespace HeroSolutions
                         return response.Content;
                     }
                 }
-             }
+            }
         }
     }
 }
@@ -102,6 +102,15 @@ namespace HeroSolutions
      <li>In the Browse tab type 'RestSharp'</li>
      &nbsp;&nbsp;
        <img src="http://139.59.61.161/MSWorkshop2019/1.PNG" alt="image" style="max-width:100%;">
+    <li>Update the API Key and Endpoint in Web.Config</li>
+    &nbsp;&nbsp;
+      <li>Grab the Key and Endpoint from 'Hero Solutions' site</li>
+      &nbsp;&nbsp;
+      <li>Navigate to Web.Config</li>
+      &nbsp;&nbsp;
+      <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
+      &nbsp;&nbsp;
+        <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;">
 
 </strong>
 
