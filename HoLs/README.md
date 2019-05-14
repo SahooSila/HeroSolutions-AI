@@ -1,4 +1,5 @@
 <h1>AI Series HOL</h1>
+<h2>You can download the AI Series HOL Startup Kit from the above Git Repo</h2>
 <h2>DAY 1 - Instructions</h2>
 <p>The following are the guidelines to work on the Computer Vision API</p>
 <h3>Converting an Image into Base64 Data</h3>
@@ -58,10 +59,9 @@ namespace HeroSolutions
   <strong>
     <li>Paste the below code in 'ImageValidationHandler.cs'</li>
     <blockquote>
-      <pre>
+<pre>
          <code>
 using RestSharp;
-
 namespace HeroSolutions
 {
     namespace AI
@@ -90,7 +90,7 @@ namespace HeroSolutions
     }
 }
 </code>
-      </pre>
+</pre>
     </blockquote>
   </strong>
 
