@@ -217,7 +217,7 @@ namespace HeroSolutions
    <blockquote>
      <pre>
        <code>
-         public static List<List<string>> User_ImageValidation(string realfakecheck, byte[] imagebyte, string url)
+         public static List<List<string>> User_ImageValidation(byte[] imagebyte, string url)
          {
             List<List<string>> err = new List<List<string>>();
             err.Add(new List<string>());
@@ -242,6 +242,30 @@ namespace HeroSolutions
        </code>
      </pre>
    </blockquote>
+   <li>Invoking the User_ImageValidation() of Facade Class from HomeController</li>
+   <li>Paste the below code in 'HomeController.cs', (i.e) below the comment 'Paste the ImageValidationAPI code here...'</li>
+   <blockquote>
+     <pre>
+       <code>
+        public async Task<JsonResult> ImageValidationAPI(string data)
+        {
+            string imgefile = "Img" + $@"{System.DateTime.Now.Ticks}.jpg";
+            string Url = Server.MapPath(@"~\Images\" + imgefile);
+            System.IO.File.WriteAllBytes(Url, Convert.FromBase64String(data));
+            var imagebyte = Facade.storetoserver(data);
+&nbsp;
+            List<List<string>> result = Facade.User_ImageValidation(imagebyte, imgefile);
+&nbsp;
+            if (result[0][1] == "")
+            {
+                return Json(new { Result = result[0][0] });
+            }
+&nbsp;
+            return Json(new { Result = "Failed" });
+        }
+      </code>
+   </pre>
+ </blockquote>
 </strong>
 </ol>
 
