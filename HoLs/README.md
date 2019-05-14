@@ -129,156 +129,155 @@ public class image_validation
 // Image validation - table operations 
 public class ImageValidationTable
 {
-  //Connection String
-  private static string connectionString = ConfigurationManager.AppSettings["AzureSqlConnectionString"];
-  public string error = "";
-
-
-// Select function
-public List<image_validation>AdminList()
-{
-     // Image Validation List creation
-      var imagevalidation_list = new List<image_validation>();
-      try
+      //Connection String
+      private static string connectionString = ConfigurationManager.AppSettings["AzureSqlConnectionString"];
+      public string error = "";
+      &nbsp;
+      // Select function
+      public List<image_validation>AdminList()
       {
-         using (SqlConnection conn = new SqlConnection(connectionString))
-         {
-            // Selecting all rows in image validation table
-            SqlCommand cmd = new SqlCommand("SELECT * FROM imagevalidation", conn);
-            //Connection Open 
-            conn.Open();
-            SqlDataReader rdr = cmd.ExecuteReader();
-            while (rdr.Read())
+           // Image Validation List creation
+            var imagevalidation_list = new List<image_validation>();
+            &nbsp;
+            try
             {
-               //Creating Image Validation Object
-              var imagevalidation_obj = new image_validation();
-              imagevalidation_obj.id = (int)rdr["id"];
-              imagevalidation_obj.validation_type = rdr["validation_type"].ToString();
-              imagevalidation_obj.validation_message = rdr["validation_message"].ToString();
-              imagevalidation_obj.isactive = (int)rdr["isactive"];
-              &nbsp;
-              // Adding object file to Model file
-              imagevalidation_list.Add(imagevalidation_obj);
+               using (SqlConnection conn = new SqlConnection(connectionString))
+               {
+                  // Selecting all rows in image validation table
+                  SqlCommand cmd = new SqlCommand("SELECT * FROM imagevalidation", conn);
+                  //Connection Open 
+                  conn.Open();
+                  SqlDataReader rdr = cmd.ExecuteReader();
+                  while (rdr.Read())
+                  {
+                     //Creating Image Validation Object
+                    var imagevalidation_obj = new image_validation();
+                    imagevalidation_obj.id = (int)rdr["id"];
+                    imagevalidation_obj.validation_type = rdr["validation_type"].ToString();
+                    imagevalidation_obj.validation_message = rdr["validation_message"].ToString();
+                    imagevalidation_obj.isactive = (int)rdr["isactive"];
+                    &nbsp;
+                    // Adding object file to Model file
+                    imagevalidation_list.Add(imagevalidation_obj);
+                  }
+                  //Connection Close
+                  conn.Close();
+                }
+              // returning the List
+              return imagevalidation_list;
             }
-            //Connection Close
-            conn.Close();
+            catch (Exception e)
+            {
+                error = e.Message;
+                return imagevalidation_list;
+            }
+      }
+      &nbsp;
+      // Select function
+      public List<bool> UserList()
+      {
+          // Image Validation List creation
+          var imagevalidation_list = new List<bool>();
+          &nbsp;
+          try
+          {
+              using (SqlConnection conn = new SqlConnection(connectionString))
+              {
+                  // Selecting all rows in image validation table
+                  SqlCommand cmd = new SqlCommand("SELECT * FROM imagevalidation", conn);
+                  //Connection Open 
+                  conn.Open();
+                  SqlDataReader rdr = cmd.ExecuteReader();
+                  while (rdr.Read())
+                  {                                   
+                      // Adding object file to Model file
+                      if ((int)rdr["isactive"]==0)
+                          imagevalidation_list.Add(true);
+                      else
+                          imagevalidation_list.Add(false);
+                  }
+                  //Connection Close
+                  conn.Close();
+              }
+              // returning the List
+              return imagevalidation_list;
           }
-        // returning the List
-        return imagevalidation_list;
+          catch (Exception e)
+          {
+              error = e.Message;
+              return imagevalidation_list;
+          }
       }
-      catch (Exception e)
+      &nbsp;
+      // Select function by ID
+      public image_validation AdminListById(string data)
       {
-          error = e.Message;
-          return imagevalidation_list;
+          // Image Validation object creation
+          var imagevalidation_obj = new image_validation();
+          &nbsp;
+          try
+          {
+              // Initialization
+              SqlConnection conn;
+              SqlDataReader rdr;
+              SqlCommand cmd;
+              &nbsp;
+              var id = Convert.ToInt32(data);
+              using (conn = new SqlConnection(connectionString))
+              {
+                  // Selecting all the rows in the image validation 
+                  cmd = new SqlCommand("SELECT * FROM imagevalidation where id ='" + id + "'", conn);
+                  conn.Open();
+                  rdr = cmd.ExecuteReader();
+                  while (rdr.Read())
+                  {
+                      imagevalidation_obj.id = (int)rdr["id"];
+                      imagevalidation_obj.validation_type = rdr["validation_type"].ToString();
+                      imagevalidation_obj.validation_message = rdr["validation_message"].ToString();
+                      imagevalidation_obj.isactive = (int)rdr["isactive"];
+                  }
+                  conn.Close();
+              }
+              // Returning object
+              return imagevalidation_obj;
+          }
+          catch (Exception e)
+          {
+              error = e.Message;
+              return imagevalidation_obj;
+          }
       }
-}
-
-
-// Select function
-public List<bool> UserList()
-{
-    // Image Validation List creation
-    var imagevalidation_list = new List<bool>();
-    try
-    {
-        using (SqlConnection conn = new SqlConnection(connectionString))
-        {
-            // Selecting all rows in image validation table
-            SqlCommand cmd = new SqlCommand("SELECT * FROM imagevalidation", conn);
-            //Connection Open 
-            conn.Open();
-            SqlDataReader rdr = cmd.ExecuteReader();
-            while (rdr.Read())
-            {                                   
-                // Adding object file to Model file
-                if ((int)rdr["isactive"]==0)
-                    imagevalidation_list.Add(true);
-                else
-                    imagevalidation_list.Add(false);
-            }
-            //Connection Close
-            conn.Close();
-        }
-        // returning the List
-        return imagevalidation_list;
-    }
-    catch (Exception e)
-    {
-        error = e.Message;
-        return imagevalidation_list;
-    }
-}
-
-
-// Select function by ID
-public image_validation AdminListById(string data)
-{
-    // Image Validation object creation
-    var imagevalidation_obj = new image_validation();
-    try
-    {
-        // Initialization
-        SqlConnection conn;
-        SqlDataReader rdr;
-        SqlCommand cmd;
-        &nbsp;
-        var id = Convert.ToInt32(data);
-        using (conn = new SqlConnection(connectionString))
-        {
-            // Selecting all the rows in the image validation 
-            cmd = new SqlCommand("SELECT * FROM imagevalidation where id ='" + id + "'", conn);
-            conn.Open();
-            rdr = cmd.ExecuteReader();
-            while (rdr.Read())
-            {
-                imagevalidation_obj.id = (int)rdr["id"];
-                imagevalidation_obj.validation_type = rdr["validation_type"].ToString();
-                imagevalidation_obj.validation_message = rdr["validation_message"].ToString();
-                imagevalidation_obj.isactive = (int)rdr["isactive"];
-            }
-            conn.Close();
-        }
-        // Returning object
-        return imagevalidation_obj;
-    }
-    catch (Exception e)
-    {
-        error = e.Message;
-        return imagevalidation_obj;
-    }
-}
-
-
-// Update function 
-public bool Modify(string data, string isactive)
-{
-    try
-    {
-        // Initialization 
-        SqlConnection conn;
-        SqlCommand cmd;
-        var id = Convert.ToInt32(data);
-        &nbsp;
-        using (conn = new SqlConnection(connectionString))
-        {
-            // Selecting the perticular row in the table and updating that using particular ID 
-            cmd = new SqlCommand("update imagevalidation set isactive ='" + isactive + "' where id = '" + id + "'", conn);
-            //connection open
-            conn.Open();
-            var temp = cmd.ExecuteNonQuery();
-            //connection close
-            conn.Close();
-            if (temp != 0)
-                return true;
-            return false;
-        }
-    }
-    catch (Exception e)
-    {
-        error = e.Message;
-        return false;
-    }
-  }
+      &nbsp;
+      // Update function 
+      public bool Modify(string data, string isactive)
+      {
+          try
+          {
+              // Initialization 
+              SqlConnection conn;
+              SqlCommand cmd;
+              var id = Convert.ToInt32(data);
+              &nbsp;
+              using (conn = new SqlConnection(connectionString))
+              {
+                  // Selecting the perticular row in the table and updating that using particular ID 
+                  cmd = new SqlCommand("update imagevalidation set isactive ='" + isactive + "' where id = '" + id + "'", conn);
+                  //connection open
+                  conn.Open();
+                  var temp = cmd.ExecuteNonQuery();
+                  //connection close
+                  conn.Close();
+                  if (temp != 0)
+                      return true;
+                  return false;
+              }
+          }
+          catch (Exception e)
+          {
+              error = e.Message;
+              return false;
+          }
+      }
 }
 </code>
       </pre>
