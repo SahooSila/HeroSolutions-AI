@@ -82,15 +82,14 @@ namespace HeroSolutions
                         request.AddHeader("Content-Type", "application/octet-stream");
                         request.AddParameter("undefined", imageBytes, ParameterType.RequestBody);
                         IRestResponse response = client.Execute(request);
-
                         return response.Content;
-
                     }
                 }
              }
         }
     }
-}</code>
+}
+</code>
       </pre>
     </blockquote>
   </strong>
