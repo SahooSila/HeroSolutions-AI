@@ -25,6 +25,8 @@ namespace HeroSolutions
             return Convert.FromBase64String(base64data);
           }
         }
+        &nbsp;
+        //Paste the Image Validation Code here...
       }
     }
   } 
@@ -113,7 +115,7 @@ namespace HeroSolutions
 <h3>Azure SQL Server Database Connectivity</h3>
 <ol>
   <strong>
-    <li>Paste the below code in 'StorageHandler.cs'</li>
+    <li>Paste the below code in 'StorageHandler.cs', which will be commented as 'Paste the Image Validation Code here...'</li>
     <blockquote>
       <pre>
         <code>
