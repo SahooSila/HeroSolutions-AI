@@ -10,6 +10,7 @@
         <pre>
            <code>
 using System;
+&nbsp;
 namespace HeroSolutions
 {
   namespace AI
@@ -26,7 +27,7 @@ namespace HeroSolutions
           }
         }
         &nbsp;
-        //Paste the Image Validation Code here...
+        //Paste the 'Image Validation' Code here...
       }
     }
   } 
@@ -40,6 +41,8 @@ namespace HeroSolutions
     <pre>
       <code>
 using HeroSolutions.AI.HOL.FaceAPI;
+using System.Collections.Generic;
+&nbsp;
 namespace HeroSolutions
 {
   public class Facade
@@ -48,6 +51,8 @@ namespace HeroSolutions
     {
       return StorageHandler.SaveToFile(base64data);
     }
+    &nbsp;
+    //Paste the 'User Image Validation' code here...
   }
 }
       </code>
@@ -65,6 +70,9 @@ namespace HeroSolutions
          <code>
 using RestSharp;
 using System.Configuration;
+using System;
+using Newtonsoft.Json.Linq;
+&nbsp;
 namespace HeroSolutions
 {
     namespace AI
@@ -78,6 +86,8 @@ namespace HeroSolutions
                     //Assigning Subscription Key and Face Endpoint from web.config file
                     private static string FaceAPIKey = ConfigurationManager.AppSettings["FaceAPIKey"], FaceAPIEndpoint = ConfigurationManager.AppSettings["FaceAPIEndPoint"];
                     &nbsp;
+                    public string error = "";
+                    &nbsp;
                     public static string FaceAPICall(byte[] imageBytes)
                     {
                         var client = new RestClient(FaceAPIEndpoint + "/face/v1.0/detect?returnFaceLandmarks=false& returnFaceId =true&returnFaceAttributes=age%2Csmile%2Cgender%2Cglasses%2CheadPose%2CfacialHair%2Cemotion%2Cmakeup&%20returnFaceId%20=true");
@@ -90,6 +100,8 @@ namespace HeroSolutions
                         IRestResponse response = client.Execute(request);
                         return response.Content;
                     }
+                    &nbsp;
+                    //Paste the Validation function code here...
                 }
             }
         }
@@ -112,179 +124,6 @@ namespace HeroSolutions
 </strong>
 </ol>
 
-<h3>Azure SQL Server Database Connectivity</h3>
-<ol>
-  <strong>
-    <li>Paste the below code in 'StorageHandler.cs', which will be commented as 'Paste the Image Validation Code here...'</li>
-    <blockquote>
-      <pre>
-        <code>
-//Image validation Class - initialization
-public class image_validation
-{
-    public int id { get; set; }
-    public string validation_type { get; set; }
-    public string validation_message { get; set; }
-    public int isactive { get; set; }
-}
-&nbsp;
-// Image validation - table operations 
-public class ImageValidationTable
-{
-      //Connection String
-      private static string connectionString = ConfigurationManager.AppSettings["AzureSqlConnectionString"];
-      public string error = "";
-      &nbsp;
-      // Select function
-      public List<image_validation>AdminList()
-      {
-           // Image Validation List creation
-            var imagevalidation_list = new List<image_validation>();
-            &nbsp;
-            try
-            {
-               using (SqlConnection conn = new SqlConnection(connectionString))
-               {
-                  // Selecting all rows in image validation table
-                  SqlCommand cmd = new SqlCommand("SELECT * FROM imagevalidation", conn);
-                  //Connection Open 
-                  conn.Open();
-                  SqlDataReader rdr = cmd.ExecuteReader();
-                  while (rdr.Read())
-                  {
-                     //Creating Image Validation Object
-                    var imagevalidation_obj = new image_validation();
-                    imagevalidation_obj.id = (int)rdr["id"];
-                    imagevalidation_obj.validation_type = rdr["validation_type"].ToString();
-                    imagevalidation_obj.validation_message = rdr["validation_message"].ToString();
-                    imagevalidation_obj.isactive = (int)rdr["isactive"];
-                    &nbsp;
-                    // Adding object file to Model file
-                    imagevalidation_list.Add(imagevalidation_obj);
-                  }
-                  //Connection Close
-                  conn.Close();
-                }
-              // returning the List
-              return imagevalidation_list;
-            }
-            catch (Exception e)
-            {
-                error = e.Message;
-                return imagevalidation_list;
-            }
-      }
-      &nbsp;
-      // Select function
-      public List<bool> UserList()
-      {
-          // Image Validation List creation
-          var imagevalidation_list = new List<bool>();
-          &nbsp;
-          try
-          {
-              using (SqlConnection conn = new SqlConnection(connectionString))
-              {
-                  // Selecting all rows in image validation table
-                  SqlCommand cmd = new SqlCommand("SELECT * FROM imagevalidation", conn);
-                  //Connection Open 
-                  conn.Open();
-                  SqlDataReader rdr = cmd.ExecuteReader();
-                  while (rdr.Read())
-                  {                                   
-                      // Adding object file to Model file
-                      if ((int)rdr["isactive"]==0)
-                          imagevalidation_list.Add(true);
-                      else
-                          imagevalidation_list.Add(false);
-                  }
-                  //Connection Close
-                  conn.Close();
-              }
-              // returning the List
-              return imagevalidation_list;
-          }
-          catch (Exception e)
-          {
-              error = e.Message;
-              return imagevalidation_list;
-          }
-      }
-      &nbsp;
-      // Select function by ID
-      public image_validation AdminListById(string data)
-      {
-          // Image Validation object creation
-          var imagevalidation_obj = new image_validation();
-          &nbsp;
-          try
-          {
-              // Initialization
-              SqlConnection conn;
-              SqlDataReader rdr;
-              SqlCommand cmd;
-              &nbsp;
-              var id = Convert.ToInt32(data);
-              using (conn = new SqlConnection(connectionString))
-              {
-                  // Selecting all the rows in the image validation 
-                  cmd = new SqlCommand("SELECT * FROM imagevalidation where id ='" + id + "'", conn);
-                  conn.Open();
-                  rdr = cmd.ExecuteReader();
-                  while (rdr.Read())
-                  {
-                      imagevalidation_obj.id = (int)rdr["id"];
-                      imagevalidation_obj.validation_type = rdr["validation_type"].ToString();
-                      imagevalidation_obj.validation_message = rdr["validation_message"].ToString();
-                      imagevalidation_obj.isactive = (int)rdr["isactive"];
-                  }
-                  conn.Close();
-              }
-              // Returning object
-              return imagevalidation_obj;
-          }
-          catch (Exception e)
-          {
-              error = e.Message;
-              return imagevalidation_obj;
-          }
-      }
-      &nbsp;
-      // Update function 
-      public bool Modify(string data, string isactive)
-      {
-          try
-          {
-              // Initialization 
-              SqlConnection conn;
-              SqlCommand cmd;
-              var id = Convert.ToInt32(data);
-              &nbsp;
-              using (conn = new SqlConnection(connectionString))
-              {
-                  // Selecting the perticular row in the table and updating that using particular ID 
-                  cmd = new SqlCommand("update imagevalidation set isactive ='" + isactive + "' where id = '" + id + "'", conn);
-                  //connection open
-                  conn.Open();
-                  var temp = cmd.ExecuteNonQuery();
-                  //connection close
-                  conn.Close();
-                  if (temp != 0)
-                      return true;
-                  return false;
-              }
-          }
-          catch (Exception e)
-          {
-              error = e.Message;
-              return false;
-          }
-      }
-}
-</code>
-      </pre>
-    </blockquote>
-  </strong>
-</ol>
+
 
 
