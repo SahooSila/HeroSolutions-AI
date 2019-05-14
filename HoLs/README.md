@@ -212,6 +212,36 @@ namespace HeroSolutions
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
       &nbsp;
         <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;">
+   <li>Invoking the Validate() of ImageValidationHandler Class from Facade</li>
+   <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'User Image Validation' code here...'</li>
+   <blockquote>
+     <pre>
+       <code>
+         public static List<List<string>> User_ImageValidation(string realfakecheck, byte[] imagebyte, string url)
+         {
+            List<List<string>> err = new List<List<string>>();
+            err.Add(new List<string>());
+&nbsp;
+            ImageValidationHandler ivhobj = new ImageValidationHandler();
+&nbsp;
+            string result = ivhobj.Validate(url, imagebyte);
+&nbsp;
+            if (result == "0")
+            {
+                err[0].Add("Success");
+                err[0].Add("");
+                return err;
+            }
+            else
+            {
+                err[0].Add(result);
+                err[0].Add("");
+                return err;
+            }
+        }
+       </code>
+     </pre>
+   </blockquote>
 </strong>
 </ol>
 
