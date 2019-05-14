@@ -34,8 +34,7 @@ namespace HeroSolutions
 
    <li>Paste the below code in 'Facade.cs'</li>
   	<blockquote>
-        <pre>
-           <code>
+    <code>
 using HeroSolutions.AI.HOL.FaceAPI;
 namespace HeroSolutions
 {
@@ -47,8 +46,8 @@ namespace HeroSolutions
     }
   }
 }
-            </code>
-       </pre>
+</code>
+       
    </blockquote>
   </strong>
 
