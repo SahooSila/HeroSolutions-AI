@@ -51,6 +51,49 @@ namespace HeroSolutions
     </pre>
 </blockquote>
 </strong>
+</ol>
+
+<h3>Invoking a Face API</h3>
+<ol>
+  <strong>
+    <li>Paste the below code in 'ImageValidationHandler.cs'</li>
+    <blockquote>
+      <pre>
+         <code>
+using RestSharp;
+
+namespace HeroSolutions
+{
+    namespace AI
+    {
+        namespace HOL
+        {
+            namespace FaceAPI
+            {
+                public class ImageValidationHandler
+                {
+                    public static string FaceAPICall(byte[] imageBytes)
+                    {
+                        var client = new RestClient(FaceAPIEndpoint + "/face/v1.0/detect?returnFaceLandmarks=false& returnFaceId =true&returnFaceAttributes=age%2Csmile%2Cgender%2Cglasses%2CheadPose%2CfacialHair%2Cemotion%2Cmakeup&%20returnFaceId%20=true");
+                        var request = new RestRequest(Method.POST);
+                        request.AddHeader("Postman-Token", "9a9a2c14-f11f-446d-b73f-8a224159b377");
+                        request.AddHeader("cache-control", "no-cache");
+                        request.AddHeader("ocp-apim-subscription-key", FaceAPIKey);
+                        request.AddHeader("Content-Type", "application/octet-stream");
+                        request.AddParameter("undefined", imageBytes, ParameterType.RequestBody);
+                        IRestResponse response = client.Execute(request);
+
+                        return response.Content;
+
+                    }
+                }
+             }
+        }
+    }
+}</code>
+      </pre>
+    </blockquote>
+  </strong>
 
 </ol>
 
