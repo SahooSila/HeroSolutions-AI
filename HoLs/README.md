@@ -74,7 +74,7 @@ namespace HeroSolutions
                 {
                     //Assigning Subscription Key and Face Endpoint from web.config file
                     private static string FaceAPIKey = ConfigurationManager.AppSettings["FaceAPIKey"], FaceAPIEndpoint = ConfigurationManager.AppSettings["FaceAPIEndPoint"];
-                    
+                    <pre>
                     public static string FaceAPICall(byte[] imageBytes)
                     {
                         var client = new RestClient(FaceAPIEndpoint + "/face/v1.0/detect?returnFaceLandmarks=false& returnFaceId =true&returnFaceAttributes=age%2Csmile%2Cgender%2Cglasses%2CheadPose%2CfacialHair%2Cemotion%2Cmakeup&%20returnFaceId%20=true");
@@ -91,7 +91,7 @@ namespace HeroSolutions
              }
         }
     }
-}
+}</pre>
           </code>
 </pre>
 </blockquote>
