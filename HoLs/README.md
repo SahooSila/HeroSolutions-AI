@@ -7,26 +7,27 @@
   	<li>Paste the below code in 'StorageHandler.cs'</li>
   	<blockquote>
         <pre>
-           <code>using System;
-           	    namespace HeroSolutions
-                {
-                   namespace AI
-                   {
-                     namespace HOL
-                     {
-                       namespace FaceAPI
-                       {
-            	          public class StorageHandler
-                          {
-                            public static byte[] SaveToFile(string base64data)
-                            {
-                               return Convert.FromBase64String(base64data);
-                            }
-                          }
-                        }
-                      }
-                    } 
-                }
+           <code>
+using System;
+namespace HeroSolutions
+{
+  namespace AI
+  {
+    namespace HOL
+    {
+      namespace FaceAPI
+      {
+        public class StorageHandler
+        {
+          public static byte[] SaveToFile(string base64data)
+          {
+            return Convert.FromBase64String(base64data);
+          }
+        }
+      }
+    }
+  } 
+}
             </code>
         </pre>
    </blockquote>
@@ -38,21 +39,19 @@
 using HeroSolutions.AI.HOL.FaceAPI;
 namespace HeroSolutions
 {
-                    public class Facade
-                    {
-                       public static byte[] storetoserver(string base64data)
-                       {
-                          return StorageHandler.SaveToFile(base64data);
-                       }
-                    }
-                 }
+  public class Facade
+  {
+    public static byte[] storetoserver(string base64data)
+    {
+      return StorageHandler.SaveToFile(base64data);
+    }
+  }
+}
             </code>
        </pre>
    </blockquote>
   </strong>
 
-  <li></li>
 </ol>
 
-<h1>Test</h1>
 
