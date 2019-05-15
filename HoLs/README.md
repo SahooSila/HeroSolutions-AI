@@ -21,9 +21,11 @@
      <li>In the Browse tab type 'RestSharp'</li>
        <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width:100%;">
        <br>
-<h2>The following are the guidelines to work on the Computer Vision API</h2>
+<h2>Code Summary</h2>
+<p>In this application we are having seven C# classes which will deals with their corresponding modules and functionalities, the Facade Class is used as the intermediate class between these seven classes and the HomeController, were the HomeController manages all the views and these C# classes. </p>
+<h2>Getting Started with the coding part - The following are the guidelines to work on the Computer Vision API</h2>
 <h3>Converting an Image into Base64 Data</h3>
-<p>The following code converts the Base64 image data into an Byte Array</p>
+<p>The StorageHandler Class consists of many functions which are used to handle all the database functionalities, also a function called 'SaveToFile' which is used to store the base64 image data into an byte array. The following code converts the Base64 image data into an Byte Array. </p>
 <ol>
   <strong>
   	<li>Paste the below code in 'StorageHandler.cs', (i.e) below the comment 'Paste the 'StorageHandler' Class code here...'</li>
@@ -40,6 +42,7 @@ public class StorageHandler
             </code>
         </pre>
    </blockquote></strong>
+   <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/8.PNG" alt="image" style="max-width:100%;">
 <p>The following code invokes the SaveToFile function of StorageHandler Class from Facade Class</p><strong>
    <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'storetoserver' Function Code here...'</li>
   	<blockquote>
@@ -54,6 +57,7 @@ public static byte[] storetoserver(string base64data)
 </blockquote>
 </strong>
 </ol>
+  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/9.PNG" alt="image" style="max-width:100%;">
 
 <h3>Invoking the Face API</h3>
 <ol>
@@ -187,6 +191,7 @@ public class ImageValidationHandler
 </pre>
 </blockquote>
 </strong>
+ <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/10.PNG" alt="image" style="max-width:100%;">
 <h3>Invoking the Validate() of ImageValidationHandler Class from Facade</h3>
    <strong>
    <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'User Image Validation' Function code here...'</li>
@@ -243,6 +248,7 @@ public class ImageValidationHandler
    </pre>
  </blockquote>
 </strong>
+  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width:100%;">
 </ol>
   <h3>Till this you can run the solution and get the output</h3>
   <h4>Sample outputs</h4>
