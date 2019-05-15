@@ -3,34 +3,19 @@
 <h2>DAY 1 - Instructions</h2>
 <p>The following are the guidelines to work on the Computer Vision API</p>
 <h3>Converting an Image into Base64 Data</h3>
+<!--The following code converts the Base64 image data into an Byte Array-->
 <ol>
   <strong>
   	<li>Paste the below code in 'StorageHandler.cs'</li>
   	<blockquote>
         <pre>
            <code>
-using System;
-&nbsp;
-namespace HeroSolutions
+public class StorageHandler
 {
-  namespace AI
+  public static byte[] SaveToFile(string base64data)
   {
-    namespace HOL
-    {
-      namespace FaceAPI
-      {
-        public class StorageHandler
-        {
-          public static byte[] SaveToFile(string base64data)
-          {
-            return Convert.FromBase64String(base64data);
-          }
-        }
-        &nbsp;
-        //Paste the 'Image Validation' Code here...
-      }
-    }
-  } 
+    return Convert.FromBase64String(base64data);
+  }
 }
             </code>
         </pre>
