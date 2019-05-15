@@ -4,8 +4,13 @@
 <p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/tree/master/HoLs">Git Repo</a></p>
 <h3>Prerequisites</h3>
     <li>Kindly ensure that your Visual Studio and SQL Server Management Studio is working fine</li>
-    <li>Play the below video to know how to build the AI_Series_HOL_Starter_Kit in Visual Studio</li>
-    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit.gif" alt="image" style="max-width:100%;">
+    <li>Open the AI Series Starter Kit application</li>
+      <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/Invoke_StarterKit_1.PNG" alt="image" style="max-width:100%;">
+    <li>In the solution explorer [View -> Solution Explorer], right click on the solution name and click Build</li>
+      <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/Invoke_StarterKit_2.PNG" alt="image" style="max-width:100%;">
+    <li>Make sure there is no error is thrown after building your application</li>
+    <li>Now click on the Run button to run and see the application's output in the browser</li>
+      <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/Invoke_StarterKit_3.PNG" alt="image" style="max-width:100%;">
 <h2>Installed Nuget Packages</h2>
     <p>The Nuget packages installed in this project are 'RestSharp' and 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
     <p>The following is a sample installation procedure</p>
