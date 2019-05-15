@@ -260,8 +260,9 @@ public class ImageValidationHandler
   <img src="http://139.59.61.161/MSWorkshop2019/Emotions/2.PNG" alt="image" style="max-width: 100%;">
   <p>Sunglasses check test case</p>
   <img src="http://139.59.61.161/MSWorkshop2019/Emotions/3.PNG" alt="image" style="max-width: 100%;">
+  <p>Reading glasses are allowed</p>
   <img src="http://139.59.61.161/MSWorkshop2019/Emotions/4.PNG" alt="image" style="max-width: 100%;">
-  <p>Allowed Emotions check test case</p>
+  <p>Allowed Emotions check test case - Anger, Sad, Surprised emotions are not allowed</p>
   <img src="http://139.59.61.161/MSWorkshop2019/Emotions/5.PNG" alt="image" style="max-width: 100%;">
   <img src="http://139.59.61.161/MSWorkshop2019/Emotions/6.PNG" alt="image" style="max-width: 100%;">
   <img src="http://139.59.61.161/MSWorkshop2019/Emotions/7.PNG" alt="image" style="max-width: 100%;">
