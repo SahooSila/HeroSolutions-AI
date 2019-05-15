@@ -52,8 +52,9 @@ public static byte[] storetoserver(string base64data)
       <li>Navigate to Web.Config</li>
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
       &nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;">
+        <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;"></strong>
 <p>The following code calls the Face API and checks for 4 attributes such as Face availability, Multiple Face check, Sunglasses check and allowed emotions check</p>
+<strong>
     <li>Paste the below code in 'ImageValidationHandler.cs', (i.e) below the comment 'Paste the 'ImageValidationHandler' Class code here...'</li>
     <blockquote>
 <pre>
@@ -174,7 +175,9 @@ public class ImageValidationHandler
 </code>
 </pre>
 </blockquote>
-   <h3>Invoking the Validate() of ImageValidationHandler Class from Facade</h3>
+</strong>
+<h3>Invoking the Validate() of ImageValidationHandler Class from Facade</h3>
+   <strong>
    <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'User Image Validation' Function code here...'</li>
    <blockquote>
      <pre>
@@ -203,8 +206,8 @@ public class ImageValidationHandler
         }
        </code>
      </pre>
-   </blockquote>
-   <li>Invoking the User_ImageValidation() of Facade Class from HomeController</li>
+   </blockquote></strong>
+   <h3>Invoking the User_ImageValidation() of Facade Class from HomeController</h3><strong>
    <li>Paste the below code in 'HomeController.cs', (i.e) below the comment 'Paste the ImageValidationAPI code here...'</li>
    <blockquote>
      <pre>
@@ -230,8 +233,8 @@ public class ImageValidationHandler
  </blockquote>
 </strong>
 </ol>
-  <h4>Till this you can run the solution and get the output</h4>
-  <h5>Sample outputs</h5>
+  <h3>Till this you can run the solution and get the output</h3>
+  <h4>Sample outputs</h4>
   <p>Face availability check test case</p>
   <img src="http://139.59.61.161/MSWorkshop2019/5.PNG" alt="image" style="max-width: 100%;">
   <p>Multiple face check test case</p>
