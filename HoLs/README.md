@@ -9,12 +9,6 @@
      <li>In the Browse tab type 'RestSharp'</li>
      &nbsp;
        <img src="http://139.59.61.161/MSWorkshop2019/1.PNG" alt="image" style="max-width:100%;">
-    <li>Update the API Key and Endpoint in Web.Config</li>
-      <li>Grab the Key and Endpoint from 'Hero Solutions' site</li>
-      <li>Navigate to Web.Config</li>
-      <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
-      &nbsp;
-        <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;">
 <p>The following are the guidelines to work on the Computer Vision API</p>
 <h3>Converting an Image into Base64 Data</h3>
 <p>The following code converts the Base64 image data into an Byte Array</p>
@@ -50,9 +44,15 @@ public static byte[] storetoserver(string base64data)
 </ol>
 
 <h3>Invoking the Face API</h3>
-<p>The following code calls the Face API and checks for 4 attributes such as Face availability, Multiple Face check, Sunglasses check and allowed emotions check</p>
 <ol>
   <strong>
+      <li>To start with, update the API Key and Endpoint in Web.Config</li>
+      <li>Grab the Key and Endpoint from 'Hero Solutions' site</li>
+      <li>Navigate to Web.Config</li>
+      <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
+      &nbsp;
+        <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;">
+<p>The following code calls the Face API and checks for 4 attributes such as Face availability, Multiple Face check, Sunglasses check and allowed emotions check</p>
     <li>Paste the below code in 'ImageValidationHandler.cs', (i.e) below the comment 'Paste the 'ImageValidationHandler' Class code here...'</li>
     <blockquote>
 <pre>
@@ -174,7 +174,7 @@ public class ImageValidationHandler
 </pre>
 </blockquote>
    <h3>Invoking the Validate() of ImageValidationHandler Class from Facade</h3>
-   <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'User Image Validation' code here...'</li>
+   <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'User Image Validation' Function code here...'</li>
    <blockquote>
      <pre>
        <code>
@@ -229,6 +229,17 @@ public class ImageValidationHandler
  </blockquote>
 </strong>
 </ol>
+  <h4>Till this you can run the solution and get the output</h4>
+  <h5>Sample outputs</h5>
+  <p>Face availability check test case</p>
+  <img src="http://139.59.61.161/MSWorkshop2019/5.PNG" alt="image" style="max-width: 100%;">
+  <p>Multiple face check test case</p>
+  <img src="http://139.59.61.161/MSWorkshop2019/3.PNG" alt="image" style="max-width: 100%;">
+  <p>Sunglasses check test case</p>
+  <img src="http://139.59.61.161/MSWorkshop2019/6.PNG" alt="image" style="max-width: 100%;">
+  <p>Allowed Emotions check test case</p>
+  <img src="http://139.59.61.161/MSWorkshop2019/4.PNG" alt="image" style="max-width: 100%;">
+
 
 
 
