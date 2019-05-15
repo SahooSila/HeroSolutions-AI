@@ -3,7 +3,7 @@
 <h2>DAY 1 - Instructions</h2>
 <p>The following are the guidelines to work on the Computer Vision API</p>
 <h3>Converting an Image into Base64 Data</h3>
-<p>//The following code converts the Base64 image data into an Byte Array</p>
+<p>The following code converts the Base64 image data into an Byte Array</p>
 <ol>
   <strong>
   	<li>Paste the below code in 'StorageHandler.cs'</li>
