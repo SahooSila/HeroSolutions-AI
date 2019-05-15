@@ -28,8 +28,8 @@ public class StorageHandler
 }
             </code>
         </pre>
-   </blockquote>
-<p>The following code invokes the SaveToFile function of StorageHandler Class from Facade Class</p>
+   </blockquote></strong>
+<p>The following code invokes the SaveToFile function of StorageHandler Class from Facade Class</p><strong>
    <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'storetoserver' Function Code here...'</li>
   	<blockquote>
     <pre>
