@@ -9,7 +9,8 @@
      <li>In the Browse tab type 'RestSharp'</li>
      &nbsp;
        <img src="http://139.59.61.161/MSWorkshop2019/1.PNG" alt="image" style="max-width:100%;">
-<p>The following are the guidelines to work on the Computer Vision API</p>
+       <br>
+<h2>The following are the guidelines to work on the Computer Vision API</h2>
 <h3>Converting an Image into Base64 Data</h3>
 <p>The following code converts the Base64 image data into an Byte Array</p>
 <ol>
