@@ -19,8 +19,7 @@
      <li>Click on Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution</li>
        <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/5.PNG" alt="image" style="max-width:100%;">
      <li>In the Browse tab type 'RestSharp'</li>
-     &nbsp;
-       <img src="http://139.59.61.161/MSWorkshop2019/1.PNG" alt="image" style="max-width:100%;">
+       <img src="http://139.59.61.161/MSWorkshop2019/6.PNG" alt="image" style="max-width:100%;">
        <br>
 <h2>The following are the guidelines to work on the Computer Vision API</h2>
 <h3>Converting an Image into Base64 Data</h3>
