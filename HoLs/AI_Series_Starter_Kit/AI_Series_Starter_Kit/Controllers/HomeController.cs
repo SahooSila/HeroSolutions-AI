@@ -1,7 +1,8 @@
-﻿using System;
+﻿using HeroSolutions.AI.HOL.FaceAPI;
+using HeroSolutions;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using System.Threading.Tasks;
 using System.Web.Mvc;
 
 namespace AI_Series_Starter_Kit.Controllers
@@ -70,6 +71,28 @@ namespace AI_Series_Starter_Kit.Controllers
             return View();
         }
 
+
+        //Paste the 'ImageValidation_FetchByID' Function code here...
+
+        //Paste the 'ImageValidation_FetchByIsActive' Function code here...
+
+        //Paste the 'GestureManagement_FetchByID' Function code here...
+
+        //Paste the 'GestureManagement_FetchByIsActive' Function code here...
+
+        //Paste the 'GestureManagement_InsertByIsID' Function code here...
+
+        //Paste the 'ImageValidationAPI' Function code here...
+
+        //Paste the 'FaceRegisterAPI' Function code here...
+
+        //Paste the 'VerifyAPI' Function code here...
+
+        //Paste the 'RandomGestureAPI' Function code here...
+
+        //Paste the 'QualityChecking' Function code here...
+
+        //Paste the 'DocumentVerification' Function code here...
 
     }
 }

@@ -212,7 +212,7 @@ namespace HeroSolutions
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
       &nbsp;
         <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;">
-   <h3>Invoking the Validate() of ImageValidationHandler Class from Facade</h3>>
+   <h3>Invoking the Validate() of ImageValidationHandler Class from Facade</h3>
    <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'User Image Validation' code here...'</li>
    <blockquote>
      <pre>
