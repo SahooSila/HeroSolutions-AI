@@ -43,6 +43,7 @@ public class StorageHandler
         </pre>
    </blockquote></strong>
    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/8.PNG" alt="image" style="max-width:100%;">
+   &nbsp;
 <p>The following code invokes the SaveToFile function of StorageHandler Class from Facade Class</p><strong>
    <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'storetoserver' Function Code here...'</li>
   	<blockquote>
@@ -68,6 +69,7 @@ public static byte[] storetoserver(string base64data)
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
       &nbsp;
         <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/7.PNG" alt="image" style="max-width: 100%;"></strong>
+        &nbsp;
 <p>The following code calls the Face API and checks for 4 attributes such as Face availability, Multiple Face check, Sunglasses check and allowed emotions check</p>
 <strong>
     <li>Paste the below code in 'ImageValidationHandler.cs', (i.e) below the comment 'Paste the 'ImageValidationHandler' Class code here...'</li>
@@ -248,18 +250,18 @@ public class ImageValidationHandler
    </pre>
  </blockquote>
 </strong>
-  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width:100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/11.PNG" alt="image" style="max-width:100%;">
 </ol>
   <h3>Till this you can run the solution and get the output</h3>
   <h4>Sample outputs</h4>
   <p>Face availability check test case</p>
-  <img src="http://139.59.61.161/MSWorkshop2019/5.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/5.PNG" alt="image" style="max-width: 100%;">
   <p>Multiple face check test case</p>
-  <img src="http://139.59.61.161/MSWorkshop2019/3.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/3.PNG" alt="image" style="max-width: 100%;">
   <p>Sunglasses check test case</p>
-  <img src="http://139.59.61.161/MSWorkshop2019/6.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width: 100%;">
   <p>Allowed Emotions check test case</p>
-  <img src="http://139.59.61.161/MSWorkshop2019/4.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/4.PNG" alt="image" style="max-width: 100%;">
 &nbsp;&nbsp;
   <p>Till now we have seen how to call a face api and examined its response.</p>
   <p>Lets move on to the actual scenario where the Admin part also included.</p>
