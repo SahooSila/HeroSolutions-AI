@@ -5,7 +5,7 @@
 <h3>Prerequisites</h3>
     <li>Kindly ensure that your Visual Studio and SQL Server Management Studio is working fine</li>
     <li>Play the below video to know how to build the AI_Series_HOL_Starter_Kit in Visual Studio</li>
-    <video width="320" height="240" controls src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit.mp4"></video>
+    <iframe width="320" height="240" controls src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit.mp4"></iframe>
 <h2>Installed Nuget Packages</h2>
     <p>The Nuget packages installed in this project are 'RestSharp' and 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
     <p>The following is a sample installation procedure</p>
