@@ -1,6 +1,13 @@
 <h1>AI Series HOL</h1>
-<h2>You can download the AI Series HOL Starter Kit from the above Git Repo</h2>
-<h2>DAY 1 - Instructions</h2>
+<p>I</p>
+<h2>Prerequisites</h2>
+<pre><code>Test</code></pre>
+<ol>
+  <strong>
+    <li>You can download the AI Series HOL Starter Kit from the above Git Repo</h2>
+  </strong>
+</ol>
+<h2>Challenge 1 - Instructions</h2>
 <h3>Installed Nuget Packages</h3>
     <p>The Nuget packages installed in this project are 'RestSharp' and 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
     <p>The following is a sample installation procedure</p>
@@ -131,7 +138,7 @@ public class ImageValidationHandler
                     var sadness = item["faceAttributes"]["emotion"]["sadness"];
                     var surprise = item["faceAttributes"]["emotion"]["surprise"];
 &nbsp;
-                    if ((double)anger > 0.5 && (double)sadness > 0.5 && (double)surprise > 0.5)
+                    if ((float)anger > 0.1 && (float)sadness > 0.1 && (float)surprise > 0.1)
                     {
                         isemotions = false;
                     }
