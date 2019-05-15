@@ -244,8 +244,8 @@ public class ImageValidationHandler
   <p>Allowed Emotions check test case</p>
   <img src="http://139.59.61.161/MSWorkshop2019/4.PNG" alt="image" style="max-width: 100%;">
 &nbsp;&nbsp;
-  <p>Till now we have seen how to call a face api and examined its response</p>
-  <p>Lets move on to the actual scenario where the Admin part also included</p>
+  <p>Till now we have seen how to call a face api and examined its response.</p>
+  <p>Lets move on to the actual scenario where the Admin part also included.</p>
 <h3>Azure SQL Server Database Connectivity</h3>
 <p>The following code contains the image_validation class properties, the ImageValidationTable Class has separate functions for each database query</p>
 <ol>
@@ -261,8 +261,9 @@ public class image_validation
     public string validation_type { get; set; }
     public string validation_message { get; set; }
     public int isactive { get; set; }
-}
+}</code></pre></blockquote>
 <li>Paste the below code in 'StorageHandler.cs', (i.e) below the comment 'Paste the 'ImageValidationTable' Class code here...'</li>
+<blockquote><pre><code>
 // Image validation - table operations 
 public class ImageValidationTable
 {
