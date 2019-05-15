@@ -1,14 +1,18 @@
 <h1>AI Series HOL</h1>
-<p>I</p>
-<h2>Prerequisites</h2>
-<pre><code>Test</code></pre>
+<p>In this Challenge-1 we gonna explore about how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connecting with Azure SQL Server Database and registering a person's face to use later on in face identification</p>
+<h2>Getting Started</h2>
+<p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/tree/master/HoLs">Git Repo</a></p>
+<h3>Prerequisites</h3>
 <ol>
   <strong>
-    <li>You can download the AI Series HOL Starter Kit from the above Git Repo</h2>
+    <li>Kindly ensure that your Visual Studio and SQL Server Management Studio is working fine</li>
+    <li>Play the below video to know how to build the AI_Series_HOL_Starter_Kit in Visual Studio</li>
+    <video width="320" height="240" controls  >
+       <source src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit.mp4" type="video/mp4">
+    </video>
   </strong>
 </ol>
-<h2>Challenge 1 - Instructions</h2>
-<h3>Installed Nuget Packages</h3>
+<h2>Installed Nuget Packages</h2>
     <p>The Nuget packages installed in this project are 'RestSharp' and 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
     <p>The following is a sample installation procedure</p>
      <li>Installing the 'RestSharp' Nuget Package</li>
