@@ -1,5 +1,5 @@
 <h1>AI Series HOL</h1>
-<h2>You can download the AI Series HOL Startup Kit from the above Git Repo</h2>
+<h2>You can download the AI Series HOL Starter Kit from the above Git Repo</h2>
 <h2>DAY 1 - Instructions</h2>
 <p>The following are the guidelines to work on the Computer Vision API</p>
 <h3>Converting an Image into Base64 Data</h3>
@@ -201,7 +201,7 @@ namespace HeroSolutions
           </code>
 </pre>
 </blockquote>
-   <li>Install the 'RestSharp' Nuget Package</li>
+   <h3>Install the 'RestSharp' Nuget Package</h3>>
      <li>Click on Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution</li>
      <li>In the Browse tab type 'RestSharp'</li>
      &nbsp;
@@ -212,7 +212,7 @@ namespace HeroSolutions
       <li>Paste the Endpoint in 'FaceAPIEndPoint' and Key in 'FaceAPIKey'</li>
       &nbsp;
         <img src="http://139.59.61.161/MSWorkshop2019/2.PNG" alt="image" style="max-width: 100%;">
-   <li>Invoking the Validate() of ImageValidationHandler Class from Facade</li>
+   <h3>Invoking the Validate() of ImageValidationHandler Class from Facade</h3>>
    <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'User Image Validation' code here...'</li>
    <blockquote>
      <pre>
