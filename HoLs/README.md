@@ -1,5 +1,5 @@
 <h1>AI Series HOL</h1>
-<p>In this Challenge-1 we gonna explore about how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connecting with Azure SQL Server Database and registering a person's face to use later on in face identification</p>
+<p>In this Challenge 1 we gonna explore about how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connecting with Azure SQL Server Database and registering a person's face to use later on in face identification</p>
 <h2>Getting Started</h2>
 <p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/tree/master/HoLs">Git Repo</a></p>
 <h3>Prerequisites</h3>
