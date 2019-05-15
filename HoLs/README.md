@@ -255,13 +255,16 @@ public class ImageValidationHandler
   <h3>Till this you can run the solution and get the output</h3>
   <h4>Sample outputs</h4>
   <p>Face availability check test case</p>
-  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/5.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/1.PNG" alt="image" style="max-width: 100%;">
   <p>Multiple face check test case</p>
-  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/3.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/2.PNG" alt="image" style="max-width: 100%;">
   <p>Sunglasses check test case</p>
-  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/3.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/4.PNG" alt="image" style="max-width: 100%;">
   <p>Allowed Emotions check test case</p>
-  <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/4.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/5.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/6.PNG" alt="image" style="max-width: 100%;">
+  <img src="http://139.59.61.161/MSWorkshop2019/Emotions/7.PNG" alt="image" style="max-width: 100%;">
 &nbsp;&nbsp;
   <p>Till now we have seen how to call a face api and examined its response.</p>
   <p>Lets move on to the actual scenario where the Admin part also included.</p>
