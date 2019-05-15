@@ -5,7 +5,7 @@
 <h3>Prerequisites</h3>
     <li>Kindly ensure that your Visual Studio and SQL Server Management Studio is working fine</li>
     <li>Open the AI Series Starter Kit application</li>
-      <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/Invoke_StarterKit_1.PNG" alt="image" style="max-width:100%;">
+      <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/Invoke_StarterKit_11.PNG" alt="image" style="max-width:100%;">
     <li>In the solution explorer [View -> Solution Explorer], right click on the solution name and click Build</li>
       <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/Invoke_StarterKit_2.PNG" alt="image" style="max-width:100%;">
     <li>Make sure there is no error is thrown after building your application</li>
