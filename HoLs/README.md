@@ -1,4 +1,5 @@
-<h1>AI Series HOL - Challenge 1</h1>
+<h1>AI Series HOL</h1>
+<h1>Challenge 1 – Image Validation using Azure Computer Vision</h1>
 <p>In this Challenge 1, we are going to explore about how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connecting with Azure SQL Server Database and registering a person's face to use later on in face identification.</p>
 <h2>Getting Started</h2>
 <p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/tree/master/HoLs">Git Repo</a></p>
@@ -255,9 +256,9 @@ public class ImageValidationHandler
 </ol>
   <h3>Till this you can run the solution and get the output</h3>
     <p><b>STEP 1 :</b> Make sure you take the picture with face to pass the face availability, also take a picture without showing the face in the camera to get the error message 'Face not found'</p>
-    <p><strong>STEP 2 :</strong> Make sure you take the picture has a single person to pass the multiple face check, also take a picture with more than one person to get the error message 'Multiple Faces are not allowed'</p>
-    <p>STEP 3 : Make sure you take the picture without wearing sunglasses to pass the sunglasses check, also take a picture by wearing sunglasses to get the error message 'Please remove the sunglasses'. [Note : Reading glasses are allowed]</p>
-    <p>STEP 4 : Make sure you are not showing the emotions such as anger, sad and surprised while taking the picture to pass the allowed emotions check, also take a picture with the specified emotions to get the error message 'Your expression must be Neutral'</p>
+    <p><b>STEP 2 :</b> Make sure you take the picture has a single person to pass the multiple face check, also take a picture with more than one person to get the error message 'Multiple Faces are not allowed'</p>
+    <p><b>STEP 3 :</b> Make sure you take the picture without wearing sunglasses to pass the sunglasses check, also take a picture by wearing sunglasses to get the error message 'Please remove the sunglasses'. [Note : Reading glasses are allowed]</p>
+    <p><b>STEP 4 :</b> Make sure you are not showing the emotions such as anger, sad and surprised while taking the picture to pass the allowed emotions check, also take a picture with the specified emotions to get the error message 'Your expression must be Neutral'</p>
   <h2>Sample outputs</h2>
   <p>Face availability check test case</p>
   <img src="http://139.59.61.161/MSWorkshop2019/Emotions/1.PNG" alt="image" style="max-width: 100%;">
