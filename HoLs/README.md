@@ -1,31 +1,32 @@
-<h1>AI Series HOL</h1>
-<p>In this Challenge 1 we gonna explore about how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connecting with Azure SQL Server Database and registering a person's face to use later on in face identification</p>
+<h1>AI Series HOL - Challenge 1</h1>
+<p>In this Challenge 1, we are going to explore about how to use Azure's Face API to validate the given image (the image will be taken from the live stream), connecting with Azure SQL Server Database and registering a person's face to use later on in face identification.</p>
 <h2>Getting Started</h2>
 <p>Download the AI Series HOL Starter Kit from the <a href="https://github.com/jumpstartninjatech/HeroSolutions-AI/tree/master/HoLs">Git Repo</a></p>
 <h3>Prerequisites</h3>
-    <li>Kindly ensure that your Visual Studio and SQL Server Management Studio is working fine</li>
-    <li>Open the AI Series Starter Kit application</li>
+    <li>Kindly ensure that your Visual Studio and SQL Server Management Studio is working fine.</li>
+    <li>Open the AI Series Starter Kit application.</li>&nbsp;
       <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/1.PNG" alt="image" style="max-width:100%;">
-    <li>In the solution explorer [View -> Solution Explorer], right click on the solution name and click Build</li>
+    <li>In the solution explorer [View -> Solution Explorer]</li>&nbsp; 
       <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/2.PNG" alt="image" style="max-width:100%;">
+    <li>Right click on the solution name and click Build</li>&nbsp;
       <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/3.PNG" alt="image" style="max-width:100%;">
     <li>Make sure there is no error is thrown after building your application</li>
-    <li>Now click on the Run button to run and see the application's output in the browser</li>
+    <li>Now click on the Run button to run and see the application's output in the browser</li>&nbsp;
       <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/4.PNG" alt="image" style="max-width:100%;">
 <h2>Installed Nuget Packages</h2>
     <p>The Nuget packages installed in this project are 'RestSharp' and 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
     <p>The following is a sample installation procedure</p>
      <li>Installing the 'RestSharp' Nuget Package</li>
-     <li>Click on Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution</li>
+     <li>Click on Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution</li>&nbsp;
        <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/5.PNG" alt="image" style="max-width:100%;">
-     <li>In the Browse tab type 'RestSharp'</li>
+     <li>In the Browse tab type 'RestSharp' and hit enter. From the search result select the specified package, select the project and click on install </li>&nbsp;
        <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/6.PNG" alt="image" style="max-width:100%;">
        <br>
 <h2>Code Summary</h2>
-<p>In this application we are having seven C# classes which will deals with their corresponding modules and functionalities, the Facade Class is used as the intermediate class between these seven classes and the HomeController, were the HomeController manages all the views and these C# classes. </p>
+<p>In this application we were having seven C# classes which will deal with their corresponding modules and functionalities, the Facade Class is used as the intermediate class between these seven classes and the HomeController, were the HomeController manages all the views and these C# classes. </p>
 <h2>Getting Started with the coding part - The following are the guidelines to work on the Computer Vision API</h2>
 <h3>Converting an Image into Base64 Data</h3>
-<p>The StorageHandler Class consists of many functions which are used to handle all the database functionalities, also a function called 'SaveToFile' which is used to store the base64 image data into an byte array. The following code converts the Base64 image data into an Byte Array. </p>
+<p>The StorageHandler Class consists of many functions which are used to handle all the database functionalities, also a function called 'SaveToFile' which is used to store the base64 image data into a byte array. The following code converts the Base64 image data into a Byte Array. </p>
 <ol>
   <strong>
   	<li>Paste the below code in 'StorageHandler.cs', (i.e) below the comment 'Paste the 'StorageHandler' Class code here...'</li>
@@ -44,7 +45,7 @@ public class StorageHandler
    </blockquote></strong>
    <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/8.PNG" alt="image" style="max-width:100%;">
    &nbsp;
-<p>The following code invokes the SaveToFile function of StorageHandler Class from Facade Class</p><strong>
+<p>The following code invokes the SaveToFile function of StorageHandler Class from Facade Class.</p><strong>
    <li>Paste the below code in 'Facade.cs', (i.e) below the comment 'Paste the 'storetoserver' Function Code here...'</li>
   	<blockquote>
     <pre>
@@ -70,7 +71,7 @@ public static byte[] storetoserver(string base64data)
       &nbsp;
         <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/7.PNG" alt="image" style="max-width: 100%;"></strong>
         &nbsp;
-<p>The following code calls the Face API and checks for 4 attributes such as Face availability, Multiple Face check, Sunglasses check and allowed emotions check</p>
+<p>The following code calls the Face API and checks for 4 attributes such as Face availability, Multiple Face check, Sunglasses check and allowed emotions check.</p>
 <strong>
     <li>Paste the below code in 'ImageValidationHandler.cs', (i.e) below the comment 'Paste the 'ImageValidationHandler' Class code here...'</li>
     <blockquote>
@@ -253,7 +254,13 @@ public class ImageValidationHandler
   <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/11.PNG" alt="image" style="max-width:100%;">
 </ol>
   <h3>Till this you can run the solution and get the output</h3>
-  <h4>Sample outputs</h4>
+  <strong>
+    <p>STEP 1 : Make sure you take the picture with face to pass the face availability, also take a picture without showing the face in the camera to get the error message 'Face not found'</p>
+    <p>STEP 2 : Make sure you take the picture has a single person to pass the multiple face check, also take a picture with more than one person to get the error message 'Multiple Faces are not allowed'</p>
+    <p>STEP 3 : Make sure you take the picture without wearing sunglasses to pass the sunglasses check, also take a picture by wearing sunglasses to get the error message 'Please remove the sunglasses'. [Note : Reading glasses are allowed]</p>
+    <p>STEP 4 : Make sure you are not showing the emotions such as anger, sad and surprised while taking the picture to pass the allowed emotions check, also take a picture with the specified emotions to get the error message 'Your expression must be Neutral'</p>
+  </strong>
+  <h2>Sample outputs</h2>
   <p>Face availability check test case</p>
   <img src="http://139.59.61.161/MSWorkshop2019/Emotions/1.PNG" alt="image" style="max-width: 100%;">
   <p>Multiple face check test case</p>
