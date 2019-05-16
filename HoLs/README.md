@@ -14,6 +14,26 @@
     <li>Make sure there is no error is thrown after building your application</li>
     <li>Now click on the Run button to run and see the application's output in the browser</li>&nbsp;
       <img src="http://139.59.61.161/MSWorkshop2019/Invoke_StarterKit/4.PNG" alt="image" style="max-width:100%;">
+    <li>The following are the output screens of the application, initially all the screens having the data fields will be empty because the database doesn't contains any entries.</li>&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/main.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_1.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_index.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_index_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/image_validation.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_index_2.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/gesture_management.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/admin_index_3.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Admin/audit_log.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/User/user_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/User/User_Index.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/User/User_Index_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/User/Register_Page.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/User/User_Index_2.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/User/Verify_Page.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Document_Verification/doc.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Document_Verification/doc_1.PNG" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/QCC_1.png" alt="image" style="max-width:100%;">&nbsp;
+    <img src="http://139.59.61.161/MSWorkshop2019/Quality_Check/QCC_2.PNG" alt="image" style="max-width:100%;">&nbsp;
 <h2>Installed Nuget Packages</h2>
     <p>The Nuget packages installed in this project are 'RestSharp' and 'Microsoft.Azure.CognitiveServices.Vision.ComputerVision'</p>
     <p>The following is a sample installation procedure</p>
@@ -276,7 +296,7 @@ public class ImageValidationHandler
   <p>Till now we have seen how to call a face api and examined its response.</p>
   <p>Lets move on to the actual scenario where the Admin part also included.</p>
 <h3>Azure SQL Server Database Connectivity</h3>
-<p>The following code contains the image_validation class properties, the ImageValidationTable Class has separate functions for each database query</p>
+<p>The following code contains the image_validation class properties, the ImageValidationTable Class has separate functions for each database query.</p>
 <ol>
   <strong>
     <li>Paste the below code in 'StorageHandler.cs', (i.e) below the comment 'Paste the 'image_validation' Class code here...'</li>
